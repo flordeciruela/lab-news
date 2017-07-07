@@ -1,6 +1,16 @@
-$colorBase : #ffffff;
+$primaryColor: #F7B617;
+$textColor : #2B2B2B;
 
-div {
-	background-color: $colorBase;
-	color: black;
+nav {
+	display: flex;
+	align-content: center;
+	justify-content: space-between;
+	padding: 30px auto;
+	.header-logo {
+		width: 200px;
+	}
+
+	.header-menu {
+		width: 40px;
+	}
 }
