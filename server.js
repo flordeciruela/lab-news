@@ -38,7 +38,7 @@ app.get('/api/categories/:category_id', function (req, res) {
     });
 });
 
-app.use('/', express.static('public'));
+app.use('/', express.static('public/'));
 
 
 app.listen(process.env.PORT || 7000, () => {
