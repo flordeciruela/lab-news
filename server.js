@@ -42,5 +42,5 @@ app.use('/', express.static('public/'));
 
 
 app.listen(process.env.PORT || 7000, () => {
-    console.log("Iniciando en puerto 7000");
+  console.log("Iniciando en puerto 7000");
 });

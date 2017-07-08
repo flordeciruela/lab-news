@@ -18,5 +18,6 @@ const Education = (update) => {
 	row.append(art3);
 	row.append(art4);
 	row.append(art5);
+
   return container;
 };

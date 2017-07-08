@@ -15,14 +15,16 @@ const render = (root) => {
 				wrapper.append(Footer(_ => render(root)));
         break;
 		case "Detail new":
-				//wrapper.append(Detaill(_ => render(root)));
+				wrapper.append(NewDetail(_ => render(root)));
+				wrapper.append(NewHeader(_ => render(root)));
 	}
   root.append(wrapper);
 }
 
 const state = {
 	viewScreen: null,
-  news: null
+  news: null,
+	urlImg: "assets/img/news/"
 };
 
 $( _ => {
