@@ -54,3 +54,5 @@ gulp.task('js', function () {
     .pipe(addsrc(sources.jquery))
     .pipe(gulp.dest(config.dist + paths.assets + "js"));
 });
+
+gulp.task('start', ['img', 'html', 'sass', 'js']);

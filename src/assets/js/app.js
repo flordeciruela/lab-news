@@ -8,6 +8,11 @@ const render = (root) => {
     case null:
         wrapper.append(Header(_ => render(root)));
 				wrapper.append(LastNews(_ => render(root)));
+				wrapper.append(WorldNews(_ => render(root)));
+				wrapper.append(TechNews(_ => render(root)));
+				wrapper.append(Education(_ => render(root)));
+				wrapper.append(Opinion(_ => render(root)));
+				wrapper.append(Footer(_ => render(root)));
         break;
 		case "Detail new":
 				//wrapper.append(Detaill(_ => render(root)));
