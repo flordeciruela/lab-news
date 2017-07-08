@@ -5833,9 +5833,9 @@ section hr {
     align-items: center;
     justify-content: space-between;
     margin: 15px auto; }
-    .header nav .header-logo {
+    .header nav .header__logo {
       width: 200px; }
-    .header nav .header-menu {
+    .header nav .header__menu {
       width: 30px; }
 
 h4.title {
