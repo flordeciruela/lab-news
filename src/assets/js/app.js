@@ -29,7 +29,6 @@ const state = {
 
 $( _ => {
 
-
 	$.getJSON('/api/news/', (req, res) => {
 			state.news = req;
 			const root = $('.root');
