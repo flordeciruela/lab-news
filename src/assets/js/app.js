@@ -31,7 +31,6 @@ $( _ => {
 	$.getJSON('/api/news/', (req, res) => {
 			state.news = req;
 			const root = $('.root');
-			console.log(state.news);
 
 			render(root);
 	});

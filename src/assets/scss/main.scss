@@ -1,6 +1,6 @@
 @import "vendor/bootstrap";
 $primaryColor: #F7B617;
-$textColor : #2B2B2B;
+$darkColor : #2B2B2B;
 $white : #ffffff;
 
 * {
@@ -46,22 +46,26 @@ h4.title {
 
 /*last news*/
 .item {
-	height: 200px;
 	margin: 5px auto;
 	box-sizing: border-box;
 	overflow: hidden;
+	height: 210px;
 
 	&.small {
-		height: 70px;
+		height: 90px;
 	}
 
 	.art {
-		background-image: url(../img/news/news-0.png);
 		background-position: center;
 		background-repeat: no-repeat;
-		background-size: 220%;
 		color: $white;
-		height: 100%;
+		padding: 10px 10px;
+	}
+
+	.text {
+		background-color: $darkColor;
+		color: $white;
+		padding: 10px 10px;
 	}
 }
 

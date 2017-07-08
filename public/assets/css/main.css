@@ -5844,19 +5844,21 @@ h4.title {
 
 /*last news*/
 .item {
-  height: 200px;
   margin: 5px auto;
   box-sizing: border-box;
-  overflow: hidden; }
+  overflow: hidden;
+  height: 210px; }
   .item.small {
-    height: 70px; }
+    height: 90px; }
   .item .art {
-    background-image: url(../img/news/news-0.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 220%;
     color: #ffffff;
-    height: 100%; }
+    padding: 10px 10px; }
+  .item .text {
+    background-color: #2B2B2B;
+    color: #ffffff;
+    padding: 10px 10px; }
 
 /*footer*/
 footer {
